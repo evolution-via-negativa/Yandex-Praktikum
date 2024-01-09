@@ -1,13 +1,19 @@
-# supervised-learning
+# Обучение с учителем
+
+[Проект](./Яндекс.Практикум «Обучение с учителем» на GitHub.ipynb)
 
 Описание проекта:
-- Постановка задачи:  
-	* Нужно спрогнозировать уйдёт клиент из банка в ближайшее время или нет по предоставленным историческим данным о поведении клиентов и расторжении договоров с банком   
-- Используемые модели:  
-	* DecisionTreeClassifier  
-	* RandomForestClassifier  
-	* LogisticRegression  
-- Результаты применения:  
+# Постановка задачи:  
+	* Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет по предоставленным историческим данным о поведении клиентов и расторжении договоров с банком, а также построить модель с предельно большим значением F1-меры.
+# Навыки и нструменты:  
+	* python  
+	* pandas
+	* matplotlib
+	* sklearn.dummy.DummyClassifier
+	* sklearn.tree.DecisionTreeClassifier 
+	* sklearn.ensemble.RandomForestClassifier 
+	* sklearn.linear_model.LogisticRegression
+# Вывод:  
 	* Наилучшее значение F1-меры для модели DecisionTreeClassifier с техникой upsampling — 0.5748  
 	* Наилучшее значение F1-меры для модели RandomForestClassifier с техникой upsampling — 0.6403  
 	* Наилучшее значение F1-меры для модели LogisticRegression с техникой upsampling — 0.4527  
