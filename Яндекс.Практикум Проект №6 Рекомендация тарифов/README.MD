@@ -6,10 +6,10 @@
 * **python**
 * **pandas**
 * **matplotlib**
-* **sklearn.tree.DecisionTreeClassifier**
-* **sklearn.ensemble.RandomForestRegressor**
-* **sklearn.linear_model.LogisticRegression**
-* **sklearn.dummy.DummyClassifier**
+* **sklearn.dummy**
+* **sklearn.tree**
+* **sklearn.ensemble**
+* **sklearn.linear_model**
 # Общий вывод:
 - Мы открыли и изучили файл с данными. Предобработка данных нам не понадобилась, поэтому этот этап мы пропустили
 - Мы разбили исходные данные на обучающую, валидационную и тестовую выборки в соотношении 3:1:1
