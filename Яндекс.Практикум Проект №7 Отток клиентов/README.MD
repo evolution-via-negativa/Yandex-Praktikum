@@ -9,10 +9,10 @@
 * **python**
 * **pandas**
 * **matplotlib**
+* **sklearn.dummy.DummyClassifier**
 * **sklearn.linear_model.LinearRegression**
 * **sklearn.tree.DecisionTreeRegressor**
 * **sklearn.ensemble.RandomForestRegressor**
-* **sklearn.dummy.DummyClassifier**
 # Общий вывод:
 **1) Мы подготовили данные:** 
 - Были обнаружены нарушения правил хорошего стиля в названии столбцов
